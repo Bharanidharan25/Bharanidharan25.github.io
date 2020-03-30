@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+@-ms-viewport{
+    width: device-width;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color:rgb(226, 226, 226);
+    color: #757575;
+}
+
+.container {
+    width: 90%;
+    margin:auto;
+    min-height: 100vh;  
+}
+
+
+.skillDetails{
+    margin-top: 15px;
+    width:100%;
+    box-shadow: 2px 4px 7px #888888;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.left_detail {
+    padding:10px;
+}
+
+.left_detail p {
+    padding: 10px;
+}
+
+
+hr{
+    border: .5px solid lightgray;
+    margin: 0 10px;
+}
+
+.left_skills{
+    padding: 10px;
+}
+
+.left_skills p{
+    padding: 10px;
+}
+
+.outer_bar{
+    border-radius: 30px;
+    background-color: lightgray;
+    width: 95%;
+    height: 18px;
+    margin: 10px auto;
+}
+
+.inner_bar{
+    background-color: teal;
+    height: 18px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+.projectDetails{
+    width: 100%;
+    margin-top: 15px;
+    box-shadow: 2px 4px 7px #888888;
+    background-color: white;
+    border-radius: 5px;
+    text-align: justify;
+    padding:20px;
+}
+
+.project{
+    padding: 15px;
+}
+
+.project h4 {
+    padding: 10px 0;
+}
+
+.project p{
+    color:black;
+    padding: 5px 0;
+}
+
+.educationDetails {
+    width: 100%;
+    margin-top: 15px;
+    box-shadow: 2px 4px 7px #888888;
+    background-color: white;
+    border-radius: 5px;
+    text-align: justify;
+    padding:20px;
+}
+
+.certification{
+    width: 100%;
+    margin-top: 15px;
+    box-shadow: 2px 4px 7px #888888;
+    background-color: white;
+    border-radius: 5px;
+    text-align: justify;
+    padding:20px;
+    margin-bottom: 20px;
+}
+
+.certification ul{
+    padding: 20px;
+}
+
+.certification h4{
+    padding:10px 0;
+}
+
+.download_button{
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-align: justify;
+    padding:20px;
+    margin-bottom: 20px;
+}
+
+.download_button a{
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    box-shadow: 2px 4px 7px #888888;
+
+}
+.footer{
+    background-color: teal;
+    width: 100%;
+    padding: 0;
+    margin:0;
+    color: white;
+    margin-top: 15px;
+}
+
+.footer p {
+    text-align: center;
+    padding: 10px;
+}
+
+.footerIcons {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+@media only screen and (min-width: 750px) {
+    .skillDetails {
+        width: 38%;
+        float: left;
+    }
+    .projectDetails {
+        width: 60%;
+        float: right;
+    }
+    .educationDetails {
+        width: 60%;
+        float: right;
+    }
+    .certification{
+        width: 60%;
+        float: right;
+    }
+
+    .download_button{
+        width: 38%;
+        float: left;
+    }
+    .footer{
+        clear: both;
+        position: relative;
+        height: 100px;
+        margin-top: -200px;
+        color: white;
+    }
+    .footerIcons{
+        width: 20%;
+    }
+    .footer p {
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+    }
+
+}
