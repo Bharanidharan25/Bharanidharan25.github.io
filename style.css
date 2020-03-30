@@ -142,7 +142,7 @@ hr{
     background-color: grey;
     color: white;
     padding:25px;
-    border-radius: 35px;
+    border-radius: 45px;
     transition: padding 200ms;
 }
 
@@ -187,7 +187,7 @@ hr{
 
     .download_button{
         padding: 20px;
-        border-radius: 45px;
+        border-radius: 35px;
         bottom: 8vh;
     }
 
