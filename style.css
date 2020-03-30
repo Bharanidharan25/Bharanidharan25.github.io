@@ -139,11 +139,10 @@ hr{
 }
 
 .download_button:hover{
-    background-color: grey;
+    background-color: rgb(4, 196, 196);
     color: white;
-    padding:25px;
     border-radius: 45px;
-    transition: padding 200ms;
+    transition: background-color 200ms;
 }
 
 .footer{
