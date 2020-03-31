@@ -118,13 +118,93 @@ hr{
     margin-bottom: 20px;
 }
 
-.certification ul{
+.curosal{
     padding: 20px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
 }
 
-.certification h4{
-    padding:10px 0;
+.mySlide{
+   display: none;
+   text-align: center;
 }
+
+.left , .right{
+    font-size: 40px;
+    top:35%;
+    width: auto;
+    position: absolute;
+    color:rgba(0,128,128,0.5);
+    transition: 0.4s ease;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.right {
+    left:0;
+}
+
+.left {
+    right: 0;
+  }
+  
+.left:hover, .right:hover {
+background-color: rgba(0,128,128,0.5);
+color: white;
+  }
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+}
+
+.fade {
+    position: relative;
+    left:0;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+.mySlide img {
+    width: 100%;
+}
+  
+@-webkit-keyframes fade {
+    from {left: -100%}
+    to {left: 0%}
+}
+  
+@keyframes fade {
+    from {left: -100%}
+    to {left: 0%}
+}
+  
+.fadeopp {
+    position: relative;
+    right:0;
+    -webkit-animation-name: fadeopp;
+    -webkit-animation-duration: 1s;
+    animation-name: fadeopp;
+    animation-duration: 1s;
+}
+  
+@-webkit-keyframes fadeopp {
+    from {right: -100%}
+    to {right: 0%}
+}
+  
+@keyframes fadeopp {
+    from {right: -100%}
+    to {right: 0%}
+}
+
+
 
 .download_button{
     position: fixed;
@@ -139,11 +219,10 @@ hr{
 }
 
 .download_button:hover{
-    background-color: grey;
+    background-color: rgb(4, 196, 196);
     color: white;
-    padding:25px;
-    border-radius: 35px;
-    transition: padding 200ms;
+    border-radius: 45px;
+    transition: background-color 500ms;
 }
 
 .footer{
@@ -165,6 +244,7 @@ hr{
     width: 50%;
     margin: auto;
     justify-content: space-around;
+    font-size: 20px;
 }
 
 @media only screen and (min-width: 750px) {
@@ -189,6 +269,10 @@ hr{
         padding: 20px;
         border-radius: 35px;
         bottom: 8vh;
+    }
+
+    .mySlide img {
+        width: 50%
     }
 
     .footer{
