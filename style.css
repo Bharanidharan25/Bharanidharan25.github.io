@@ -17,7 +17,19 @@ body {
     font-family: "Roboto", sans-serif;
     background-color:rgb(226, 226, 226);
     color: #757575;
-}
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+      
+@keyframes fadeInAnimation { 
+        0% { 
+            opacity: 0; 
+        } 
+        100% { 
+            opacity: 1; 
+         } 
+    } 
 
 .container {
     width: 90%;
@@ -266,7 +278,7 @@ color: white;
     }
 
     .download_button{
-        padding: 20px;
+        padding: 15px;
         border-radius: 35px;
         bottom: 8vh;
     }
