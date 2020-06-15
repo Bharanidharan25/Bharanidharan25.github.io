@@ -41,4 +41,4 @@ window.onload = window.setInterval(()=>{
       slideIndex += 1
       return showSlides(slideIndex,'fade')
     }
-  },2500)
+  },3000)

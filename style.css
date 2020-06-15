@@ -55,6 +55,10 @@ body {
     padding: 10px;
 }
 
+.left_detail a:hover{
+    color: black;
+}
+
 
 hr{
     border: .5px solid lightgray;
@@ -109,6 +113,14 @@ hr{
     padding: 5px 0;
 }
 
+.project a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.project a:hover{
+    color: rgb(80, 80, 80);
+}
+
 .educationDetails {
     width: 100%;
     margin-top: 15px;
@@ -117,6 +129,17 @@ hr{
     border-radius: 5px;
     text-align: justify;
     padding:20px;
+}
+
+.portfolio{
+    width: 100%;
+    margin-top: 15px;
+    box-shadow: 2px 4px 7px #888888;
+    background-color: white;
+    border-radius: 5px;
+    text-align: justify;
+    padding:20px;
+    margin-bottom: 20px;
 }
 
 .certification{
@@ -168,7 +191,7 @@ color: white;
   }
 
 .text {
-    color: #f2f2f2;
+    color: #888888;
     font-size: 15px;
     position: absolute;
     top: 0;
@@ -272,9 +295,20 @@ color: white;
         width: 60%;
         float: right;
     }
-    .certification{
+    .portfolio{
         width: 60%;
         float: right;
+    }
+    .curosal{
+        padding: 20px;
+        width: 100%;
+        height: 40%;
+        position: relative;
+        overflow: hidden;
+    }
+    .certification{
+        width: 38%;
+        float: left;
     }
 
     .download_button{
@@ -284,8 +318,15 @@ color: white;
     }
 
     .mySlide img {
-        width: 50%
+        width: 60%;
+        height: 90%;
     }
+
+    .mySlide{
+        display: none;
+        text-align: center;
+        margin-top: 15px;
+     }
 
     .footer{
         clear: both;
