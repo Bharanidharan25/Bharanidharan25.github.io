@@ -283,10 +283,11 @@ color: white;
 }
 
 @media only screen and (min-width: 750px) {
-    .skillDetails {
-        width: 38%;
+    .floatLeft{
         float: left;
+        width: 38%
     }
+
     .projectDetails {
         width: 60%;
         float: right;
@@ -305,10 +306,6 @@ color: white;
         height: 40%;
         position: relative;
         overflow: hidden;
-    }
-    .certification{
-        width: 38%;
-        float: left;
     }
 
     .download_button{
